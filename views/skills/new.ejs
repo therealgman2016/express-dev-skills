@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+
+<form action="/skills" method="POST" autocomplete="off">
+    <label for="skill">Skill Name:</label>
+    <input type="text" name="skill">
+    <label for="pro">Pro?</label>
+    <input type="checkbox" name="pro">
+    <button type="submit">Save Skill</button>
+</form>
+
+<%- include('../partials/footer') %>
